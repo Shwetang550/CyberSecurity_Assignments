@@ -1,0 +1,13 @@
+XAMPP 
+  X : cross platform that means you can use this software on any platform i.e Windows, macOS, Linux or any other operating system.
+  A :Apache (which is a server)
+  M: MySQL (database)
+ Database for your website
+  P : PHP (Programming Language)
+  P : Perl Programming Language
+
+LAMP: It is a open source web development platform .
+  L : Linux (operating system)
+  A : Apache HTTP (web server)
+  M : MySQL ( database management system )
+  P : PHP (object – oriented scripting language)

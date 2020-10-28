@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Swap Paragraphs</title>
+</head>
+<body>
+<p id="para1">" paragraph 1 "</p>
+<p id="para2">" paragraph 2"</p>
+<button onclick=myfunction()>swap</button>
+<script>
+function myfunction()
+{
+ p1=document.getElementById("para1");
+ p2=document.getElementById("para2");
+ p1content=p1.innerText;
+ p2content=p2.innerText;
+ 
+ p1.innerText=p2content;
+ p2.innerText=p1content;
+ 
+console.log(p1content);
+console.log(p2content);
+}
+</script>
+</body>
+</html>

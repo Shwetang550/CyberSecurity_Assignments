@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>circle</title>
+        <style type="text/css"> 
+            #circle{
+                width:200px;
+                height:200px;
+                background-color:black;
+                border-radius: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="circle"></div>
+        <script type="text/javascript">
+          function change()
+          {
+              num="123456789AbCdEF";
+              sym='#';
+              for(var i=0;i<6;i++)
+              {
+                  random=Math.ceil(Math.random()*14);
+                  sym=sym+num[random];
+              }
+              return sym;
+          }
+
+
+         circle=document.getElementById('circle');
+         circle.onclick=function(){
+             color=change();
+             circle.style.backgroundColor=color;
+         }
+              
+        </script>
+
+    </body>
+</html>

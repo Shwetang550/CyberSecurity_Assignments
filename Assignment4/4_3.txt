@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>GCD</title>
+        <p>GCD of two number</p>
+        <p id="demo"></p>
+    </head>
+    <body>
+        <script type="text/javascript">
+         function gcd( n1, n2)
+         {
+              for(var i=0;i<=n1 && i<=n2;i++)
+              {
+                  if(n1%i==0 && n2%i==0)
+                  {
+                      var x=i;
+                  }
+              }
+              return x;
+         }
+
+        var n1=prompt("enter the number");
+        var n2=prompt("enter another number");
+        var hcf=gcd(n1,n2);
+        document.getElementById("demo").innerHTML=hcf;
+
+        </script>
+    </body>
+    
+</html>
